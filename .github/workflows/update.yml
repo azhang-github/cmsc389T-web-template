@@ -17,4 +17,4 @@ jobs:
           port: ${{ secrets.PORT }}
           script: |
               cd /pub/azhang25/cmsc389T-web-template
-              git pull azhang-github/cmsc389T-web-template
+              git pull
