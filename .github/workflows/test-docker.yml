@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Build File Writer Container
+      - name: Build Website Container
         run: |
           docker build -t node-web-app .
           docker run --name "website" -p 80:8080 -d node-web-app
